@@ -1,0 +1,82 @@
+body{
+  font:15px/1.5 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  background-color:#ffffff;  
+  color:#777777;
+  border-color:#dddddd;
+  padding:0;
+  margin:0;
+  width:960px;
+  background-image:url("../images/leaves.png");
+  background-repeat:repeat;
+}
+
+/* Header */
+header{
+    background-color:#ffffff;
+    border-color:#cccccc;
+    border-bottom: #777777 3px solid;
+}
+header a{
+    color:#777777;
+    text-decoration:none;
+}
+header ul{
+    margin:0;
+    padding:0;
+}
+header li{
+    display:inline;
+    padding: 0px 20px 0px 20px;
+}
+header #logo-name{
+    float:left;
+}
+header #logo-name h1{
+    margin:0;
+}
+header nav{
+    float:right;
+    margin-top:10px;
+    padding-bottom: 20px;
+}
+
+/* Headings */
+h1, h3{
+    background-color:#4aaaa5;
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+}
+h2{
+    color:#4aaaa5;
+    padding-top: 20px;
+    float:right;
+}
+footer{
+    background-color:#666666;
+    margin:0;
+    border-top:8px solid #4aaaa5;
+}
+
+/* Global */
+.container{
+    margin:auto;
+    background-color:#ffffff;
+}
+
+img {
+    padding-top: 20px;
+    width:20%;
+    height:20%;
+}
+
+/* index.html */
+
+
+
+
+
+
+
+
+/* contact.html */
+
+/* portfolio.html */
