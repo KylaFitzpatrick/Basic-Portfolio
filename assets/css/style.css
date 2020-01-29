@@ -1,13 +1,27 @@
-body{
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+  margin: 0 0 100px; 
   font:15px/1.5 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   background-color:#ffffff;  
   color:#777777;
   border-color:#dddddd;
-  padding:0;
-  margin:0;
   width:960px;
   background-image:url("../images/leaves.png");
   background-repeat:repeat;
+  margin:auto;
+}
+/* Global */
+.container{
+    margin:auto;
+    background-color:#ffffff;
+    overflow:hidden;
+}
+ul{
+    margin:0;
+    padding:0;
 }
 
 /* Header */
@@ -20,35 +34,31 @@ header a{
     color:#777777;
     text-decoration:none;
 }
-header ul{
-    margin:0;
-    padding:0;
-}
 header li{
     display:inline;
     padding: 0px 20px 0px 20px;
 }
-header #logo-name{
+header #logo-name h1{ 
     float:left;
-}
-header #logo-name h1{
     margin:0;
 }
 header nav{
     float:right;
-    margin-top:10px;
-    padding-bottom: 20px;
+    /* margin-top:10px;
+    padding-bottom: 20px; */
 }
 
 /* Headings */
 h1, h3{
     background-color:#4aaaa5;
     font-family:'Georgia', Times, 'Times New Roman', serif;
+    color:#ffffff;
+
 }
 h2{
     color:#4aaaa5;
-    padding-top: 20px;
-    float:right;
+    border-bottom:#777777 3px solid;
+    
 }
 footer{
     background-color:#666666;
@@ -56,17 +66,24 @@ footer{
     border-top:8px solid #4aaaa5;
 }
 
-/* Global */
-.container{
-    margin:auto;
-    background-color:#ffffff;
-}
-
-img {
-    padding-top: 20px;
+img{
     width:20%;
     height:20%;
+    float:left;
+    margin-right:20px;
 }
+.clearfix{
+    overflow:auto;
+}
+.footer {
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align:center;
+    height:20px;
+}
+
 
 /* index.html */
 
