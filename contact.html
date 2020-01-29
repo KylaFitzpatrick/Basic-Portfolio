@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <title>Kyla's Portfolio</title>
-
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
@@ -12,7 +11,7 @@
 <body>
   <header>
     <div class="container">
-      <div id="logo">
+      <div id="logo-name">
         <h1>Kyla Fitzpatrick</h1>
       </div>
       <nav>
@@ -25,21 +24,21 @@
     </div>
   </header>
 
-  <div class="container">
     <section id="contact-form">
+      <div class="container">
       <h2>Contact</h2>
-      <form>
+      <form class="contact-form">
         Name<br>
         <input type="text" name="full-name" placeholder="John Smith"><br>
         Email<br>
         <input type="text" name="email" placeholder="example@gmail.com"><br>
         Message<br>
-        <input type="text" name="message"><br>
+        <textarea type="text" placeholder="Comment here">
+        </textarea><br>
         <button type="submit" class="contact-button">Submit</button>
       </form>
+    </div>
     </section>
-  </div>
-  <footer> Copyright &copy; </footer>
 </body>
-
+<footer class="footer"> Copyright &copy; </footer>
 </html>
